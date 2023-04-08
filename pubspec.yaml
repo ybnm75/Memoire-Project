@@ -1,0 +1,79 @@
+name: firebase_1
+description: A new Flutter project.
+
+
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.2.18
+  get: ^4.6.5
+  firebase_core: ^2.9.0
+  firebase_auth: ^4.4.0
+  flutter_map: any
+  geocoder2: ^1.4.0
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  tuple: ^2.0.0
+  latlng: ^0.2.0
+  latlong: ^0.6.1
+  latlong2: ^0.8.0
+  positioned_tap_detector_2: ^1.0.4
+  transparent_image: ^2.0.1
+  async: ^2.9.0
+  image: ^4.0.15
+  vector_math:
+  http: ^0.13.5
+  proj4dart: ^2.1.0
+  meta:
+  collection:
+  dio: ^5.0.2
+  polylabel: ^1.0.1
+  flutter_polyline_points: ^1.0.0
+  google_maps_flutter: ^2.2.5
+  shared_preferences: ^2.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: '#f7f6f1'
+  color_dark: '#272727'
+  image: assets/images/burger-logo.png
+  image_dark: assets/images/burger-logo.png
+  android_12:
+    image: assets/images/burger-logo.png
+    icon_background_color: "#f7f6f1"
+    image_dark: assets/images/burger-logo.png
+    icon_background_color_dark: "#272727"
+
+
+
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+  - assets/images/
+  - assets/images/splash_images/
+  - assets/images/welcome_images/
+  - assets/logo/
+  - assets/fonts/
